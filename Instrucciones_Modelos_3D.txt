@@ -1,9 +1,12 @@
-Colocar el proyecto en esta Ruta asi
-
+Compilar shift mas click derecho del mouse abrir PowerShell escribir make y Enter para el Proyecto
+Compilar shift mas click derecho del mouse abrir PowerShell escribir make y Enter en la carpeta obj para convertir el Modelo a 3D para la GBA con el Butano Engine
+Solo soporta el uso de 1 Modelo low Poly 3D a la vez y no soporta textura solo materiales por separado en el Modelo 3D
+Colocar el proyecto en esta Ruta asi en la carpeta por defecto de Butano Engine
+Usa el Blender 2.76 y el Proyecto Butano Engine para Funcionar
 C:\Butano_Engine_GBA\games\GBA_3D
 
 objinput v3doutput modelname modelscale --recalcnorms
-
+usar esta linea de comandos para exportar el modelo 3D de GBA en la carpeta obj usando el comando make con el Windows Power Shell
 python wavefront2v3d.py "C:/Butano_Engine_GBA/games/GBA_3D/obj/model.obj" "C:/Butano_Engine_GBA/games/GBA_3D/obj/modelo.v3d" "player" 1.0 --recalcnorms
 
 #include "models/fr_model_3d_items_player.h"
