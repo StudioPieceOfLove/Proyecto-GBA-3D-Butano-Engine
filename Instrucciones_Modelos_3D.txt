@@ -1,0 +1,26 @@
+Colocar el proyecto en esta Ruta asi
+
+C:\Butano_Engine_GBA\games\GBA_3D
+
+objinput v3doutput modelname modelscale --recalcnorms
+
+python wavefront2v3d.py "C:/Butano_Engine_GBA/games/GBA_3D/obj/model.obj" "C:/Butano_Engine_GBA/games/GBA_3D/obj/modelo.v3d" "player" 1.0 --recalcnorms
+
+#include "models/fr_model_3d_items_player.h"
+
+_model = &_models.create_dynamic_model(fr::model_3d_items::player_full);
+
+
+constexpr inline model_3d_item player_full(player_vertices, player_faces_full);
+
+Emparentar todo el objeto con Ctrl+J y Ctrl+P en Blender en uno solo al usarlo
+
+Colocar materiales por separado al usarlo a cada parte del objeto
+
+Poner Nombre al Modelo model.obj 
+
+queda como modelo.v3d
+
+modelo.v3d cambiarlo por fr_model_3d_items_player.h tambien cambiar la terminacion
+
+
