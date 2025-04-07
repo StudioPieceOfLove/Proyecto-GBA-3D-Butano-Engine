@@ -6,7 +6,7 @@ Usa el Blender 2.76 y el Proyecto Butano Engine para Funcionar
 C:\Butano_Engine_GBA\games\GBA_3D
 
 objinput v3doutput modelname modelscale --recalcnorms
-usar esta linea de comandos para exportar el modelo 3D de GBA en la carpeta obj usando el comando make con el Windows Power Shell
+usar esta linea de comandos para exportar el modelo 3D de GBA en la carpeta obj usando el comando make con el Windows Power Shell y el comando make
 python wavefront2v3d.py "C:/Butano_Engine_GBA/games/GBA_3D/obj/model.obj" "C:/Butano_Engine_GBA/games/GBA_3D/obj/modelo.v3d" "player" 1.0 --recalcnorms
 
 #include "models/fr_model_3d_items_player.h"
